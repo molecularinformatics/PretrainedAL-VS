@@ -25,11 +25,11 @@ Our code is based on MolPal and MolFormer, please check the installation of MolP
 
 ## Quick Start
 
-The model training, inference, and molecular docking parts are customized to run on HPC via SLURM RESTAPI. Please check the slide for the detail [link](https://docs.google.com/presentation/d/1Hg2poYb1eFRWk5aNHCY-awUyPc3_GFr2/edit?usp=sharing&ouid=113885279755421323328&rtpof=true&sd=true)
+The model training, inference, and molecular docking parts are customized to run on HPC via SLURM RESTAPI. Please check the slide for the detail ([link](https://docs.google.com/presentation/d/1Hg2poYb1eFRWk5aNHCY-awUyPc3_GFr2/edit?usp=sharing&ouid=113885279755421323328&rtpof=true&sd=true))
 
 
 ### Download MolFormer 
-Download MolFormer from [link](https://ibm.ent.box.com/v/MoLFormer-data), and put it in `molpal/models/transformer/pretrained_ckpt/`
+Download pretrained MolFormer model from the [link](https://ibm.ent.box.com/v/MoLFormer-data), and put it in `molpal/models/transformer/pretrained_ckpt/`
 ### Config slurm API server 
 
 Config slurm API server for model training and inference in `molpal/models/transformermodels.py`
