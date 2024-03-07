@@ -1,6 +1,7 @@
+## Large-Scale Pretraining Improves Sample Efficiency of Active Learning-Based Virtual Screening
 
 
-This repository provides pytorch source code, and data associated with our Journal of Chemical Information and Modeling publication, "Large-Scale Pretraining Improves Sample Efficiency of Active Learning-Based Virtual Screening".
+This repository provides source code, and data associated with our Journal of Chemical Information and Modeling publication, "Large-Scale Pretraining Improves Sample Efficiency of Active Learning-Based Virtual Screening".
 
 Paper: [JCIM Link](https://pubs.acs.org/doi/10.1021/acs.jcim.3c01938) / [Arxiv Link](https://arxiv.org/abs/2309.11687)
 
@@ -25,6 +26,7 @@ Our code is based on MolPal and MolFormer, please check the installation of MolP
 ## Quick Start
 
 The model training, inference, and molecular docking parts are customized to run on HPC via SLURM RESTAPI. Please check the slide for the detail [link](https://docs.google.com/presentation/d/1Hg2poYb1eFRWk5aNHCY-awUyPc3_GFr2/edit?usp=sharing&ouid=113885279755421323328&rtpof=true&sd=true)
+
 
 ### Download MolFormer 
 Download MolFormer from [link](https://ibm.ent.box.com/v/MoLFormer-data), and put it in `molpal/models/transformer/pretrained_ckpt/`
