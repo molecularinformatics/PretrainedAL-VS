@@ -10,7 +10,7 @@ Paper: [JCIM Link](https://pubs.acs.org/doi/10.1021/acs.jcim.3c01938) / [Arxiv L
 
 <center>
 
-<div align=center><img width="800" height="500" src="https://github.com/molecularinformatics/PretrainedAL-VS/blob/90ed9f9b2981385d3794684d579f29848e916240/assets/fig.png"/></div>
+<div align=center><img width="768.5" height="695" src="https://github.com/molecularinformatics/PretrainedAL-VS/blob/90ed9f9b2981385d3794684d579f29848e916240/assets/fig.png"/></div>
 </center>  
 
 
