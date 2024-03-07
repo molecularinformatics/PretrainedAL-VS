@@ -1,0 +1,61 @@
+filesize: 3373
+JobId: edge-hpc-cpu-121-0-65b2b7d8
+Name: glide-dock_SP_B2
+Program: Glide
+Processors: 1
+OrigLaunchHost: edge-hpc-cpu-121.cm.cluster
+OrigLaunchDir: /home/zcao/Documents/molpal/molpal/objectives/glide_utils
+Host: edge-hpc-cpu-121.cm.cluster
+User: zcao
+Dir: /home/zcao/Documents/molpal/molpal/objectives/glide_utils
+HostsFile: /usr/prog/software/Schrodinger/2022-4/schrodinger.hosts
+HostEntry: localhost
+Commandline: /usr/prog/software/Schrodinger/2022-4/glide /home/zcao/Documents/molpal/molpal/objectives/glide_utils/glide-dock_SP_B2.in -OVERWRITE -HOST localhost:20 -NJOBS 20 -WAIT
+MmshareExec: /usr/prog/software/Schrodinger/2022-4/mmshare-v6.0/bin/Linux-x86_64
+JobHost: edge-hpc-cpu-121.cm.cluster
+JobUser: zcao
+JobDir: :tmpdir:
+TmpDir: /tmp
+JobDB: /home/zcao/.schrodinger/.jobdb2
+JobMmshareExec: /usr/prog/software/Schrodinger/2022-4/mmshare-v6.0/bin/Linux-x86_64
+JobPort: 41730
+JobPid: 8706
+Status: started
+LastStatus: launched
+Summary: The job directory has been created on edge-hpc-cpu-121.cm.cluster.
+Command: BASE64 KCAiJVNDSFJPRElOR0VSJS9ydW4iIC1GUk9NIGdsaWRlICJnbGlkZV9kcml2ZXIucHkiIC1KT0JOQU1FIGdsaWRlLWRvY2tfU1BfQjIgIi9ob21lL3pjYW8vRG9jdW1lbnRzL21vbHBhbC9tb2xwYWwvb2JqZWN0aXZlcy9nbGlkZV91dGlscy9nbGlkZS1kb2NrX1NQX0IyLmluIiAtTkpPQlMgMjAgKSA+ICJnbGlkZS1kb2NrX1NQX0IyLmxvZyIgMj4mMQ==
+Home: /home/zcao
+Timezone: -0500
+LaunchTime: 2024-01-25-14:34:48
+StatusTime: 2024-01-25-14:34:49
+LogInterval: 60
+SaveJobDir: 0
+TmpLaunchDir: 0
+AutoCleanup: 0
+InputFiles[1]:	/home/zcao/Documents/molpal/molpal/objectives/glide_utils/TYK2.zip
+InputFiles[2]:	/home/zcao/Documents/molpal/molpal/objectives/glide_utils/temp/ligprep-out.maegz
+InputFiles[3]:	/home/zcao/Documents/molpal/molpal/objectives/glide_utils/glide-dock_SP_B2.in
+LogFiles[1]:	glide-dock_SP_B2.log
+Transfers[1]:	'/home/zcao/.schrodinger/.jobdb2/files/edge-hpc-cpu-121-65b2b/edge-hpc-cpu-121-0-65b2b7d8.nodes' > 'edge-hpc-cpu-121-0-65b2b7d8.nodes'
+Transfers[2]:	'/home/zcao/.schrodinger/.jobdb2/files/edge-hpc-cpu-121-65b2b/edge-hpc-cpu-121-0-65b2b7d8.mpinodes' > 'edge-hpc-cpu-121-0-65b2b7d8.mpinodes'
+Licenses[1]:	GLIDE_MAIN:1
+Licenses[2]:	GLIDE_SP_DOCKING:4
+Envs[1]:	FLEXLM_TIMEOUT=3000000
+Envs[2]:	GLIDE_EXEC=/usr/prog/software/Schrodinger/2022-4/glide-v9.7/bin/Linux-x86_64
+Envs[3]:	HOME_MMSHARE_EXEC=/usr/prog/software/Schrodinger/2022-4/mmshare-v6.0/bin/Linux-x86_64
+Envs[4]:	MMSHARE_EXEC=/usr/prog/software/Schrodinger/2022-4/mmshare-v6.0/bin/Linux-x86_64
+Envs[5]:	SCHRODINGER=/usr/prog/software/Schrodinger/2022-4
+Envs[6]:	SCHRODINGER_APP_EXEC=GLIDE_EXEC
+Envs[7]:	SCHRODINGER_COMMANDLINE="/usr/prog/software/Schrodinger/2022-4/glide /home/zcao/Documents/molpal/molpal/objectives/glide_utils/glide-dock_SP_B2.in -OVERWRITE -HOST localhost:20 -NJOBS 20 -WAIT"
+Envs[8]:	SCHRODINGER_EXEC=/usr/prog/software/Schrodinger/2022-4/internal/bin
+Envs[9]:	SCHRODINGER_FEATURE_FLAGS=
+Envs[10]:	SCHRODINGER_JOBID=edge-hpc-cpu-121-0-65b2b7d8
+Envs[11]:	SCHRODINGER_MPI_NODEFILE=%JOBDIR%/edge-hpc-cpu-121-0-65b2b7d8.mpinodes
+Envs[12]:	SCHRODINGER_NODEFILE=%JOBDIR%/edge-hpc-cpu-121-0-65b2b7d8.nodes
+Envs[13]:	SCHRODINGER_PERL_FEATURE_FLAGS_ENABLED=
+Envs[14]:	SCHRODINGER_PRODUCT=glide
+Envs[15]:	SCHRODINGER_RING_TEMPLATE_SOURCES=
+Envs[16]:	SCHRODINGER_TPP=
+Envs[17]:	SCHRODINGER_UMASK=2
+Envs[18]:	SCHROD_LICENSE_FILE=27008@awshpc23036.abd.amazon.biogen.com:27008@biogen1-license.tsg.schrodinger.com
+Envs[19]:	SQLITE_TMPDIR=.
